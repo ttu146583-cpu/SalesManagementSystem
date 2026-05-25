@@ -74,7 +74,7 @@ public class Product {
     //method
     public void updateStockQuantity(int quantity) {
         if (stockQuantity + quantity >= 0) //kho khong am
-        this.stockQuantity=stockQuantity;
+        this.stockQuantity += stockQuantity;
     }
 }
 
