@@ -48,7 +48,7 @@ public class Product {
         }
     }
     public String getcategoryProduct(){
-        return getcategoryProduct;
+        return categoryProduct;
     }
     public void settercategoryProduct(String categoryProduct){
         this.categoryProduct=categoryProduct;
@@ -63,7 +63,7 @@ public class Product {
         }
     }
     public int getstockQuantity(){
-        return getstockQuantity;
+        return stockQuantity;
     }
     public void setterstockQuantity(int stockQuantity){
         if (stockQuantity > 0)
